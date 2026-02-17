@@ -1,0 +1,24 @@
+﻿using System;
+using Project.Scripts.Configs.Audio;
+using Project.Scripts.Infrastructure.Configs;
+using UnityEngine;
+
+namespace Project.Scripts.Configs
+{
+    [Serializable]
+    public class GlobalConfig : ScriptableConfig
+    {
+        [SerializeField]
+        private bool _enableDebug;
+
+        [SerializeField]
+        private VolumeConfig _volumeConfig;
+
+        [SerializeField]
+        private AudioClipsListConfig _audioClipsListConfig;
+
+        public VolumeConfig VolumeConfig => _volumeConfig;
+        public AudioClipsListConfig AudioClipsListConfig => _audioClipsListConfig;
+        public bool EnableDebug => _enableDebug;
+    }
+}
