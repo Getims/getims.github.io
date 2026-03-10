@@ -1,5 +1,6 @@
 using Project.Scripts.Infrastructure.ScenesManager;
 using Project.Scripts.Infrastructure.StateMachines;
+using UnityEngine.SceneManagement;
 
 namespace Project.Scripts.Runtime.Scenes.CoreStateMachine
 {
@@ -10,8 +11,16 @@ namespace Project.Scripts.Runtime.Scenes.CoreStateMachine
         public LoadGameLoaderSceneState(GameStateMachine stateMachine, ISceneLoader sceneLoader) : base(sceneLoader) =>
             _stateMachine = stateMachine;
 
-        public void Enter() =>
+        public void Enter()
+        {
+            if (SceneManager.GetActiveScene().name == Enums.Scenes.GameLoader.ToString())
+            {
+                OnLoaded();
+                return;
+            }
+
             base.Enter(Enums.Scenes.GameLoader, OnLoaded);
+        }
 
         private void OnLoaded() =>
             _stateMachine.Enter<WaitState>();
