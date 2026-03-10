@@ -9,3 +9,4 @@ https://getims.github.io/Capybara/
 https://getims.github.io/JellyField/
 https://getims.github.io/ScrewPuzzle/
 https://getims.github.io/Backrooms/
+https://getims.github.io/JumpingCar/
