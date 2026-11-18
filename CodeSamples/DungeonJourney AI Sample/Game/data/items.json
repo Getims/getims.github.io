@@ -1,0 +1,679 @@
+[
+ {
+  "id": "leather_cap",
+  "name": "Leather Cap",
+  "slot": "head",
+  "rarity": "common",
+  "icon": "head_leather_cap",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 11
+   }
+  ]
+ },
+ {
+  "id": "horned_helm",
+  "name": "Horned Helm",
+  "slot": "head",
+  "rarity": "rare",
+  "icon": "head_horned_helm",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 20
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "leather_boots",
+  "name": "Leather Boots",
+  "slot": "legs",
+  "rarity": "common",
+  "icon": "legs_boots",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 5
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "rusty_blade",
+  "name": "Rusty Blade",
+  "slot": "weapon",
+  "rarity": "common",
+  "icon": "wpn_rusty_blade",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 7
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "steel_axe",
+  "name": "Steel Axe",
+  "slot": "weapon",
+  "rarity": "uncommon",
+  "icon": "wpn_steel_axe",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 11
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 7
+   }
+  ]
+ },
+ {
+  "id": "steel_mace",
+  "name": "Steel Mace",
+  "slot": "weapon",
+  "rarity": "uncommon",
+  "icon": "wpn_steel_mace",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 12
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 7
+   }
+  ]
+ },
+ {
+  "id": "iron_ring",
+  "name": "Iron Ring",
+  "slot": "accessory",
+  "rarity": "uncommon",
+  "icon": "acc_iron_ring",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.04
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "leech_charm",
+  "name": "Leech Charm",
+  "slot": "accessory",
+  "rarity": "rare",
+  "icon": "acc_leech_charm",
+  "mods": [
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.16
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "padded_vest",
+  "name": "Padded Vest",
+  "slot": "body",
+  "rarity": "common",
+  "icon": "body_leather_vest",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 14
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "chainmail",
+  "name": "Chainmail",
+  "slot": "body",
+  "rarity": "uncommon",
+  "icon": "body_chainmail",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 10
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 10
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "knight_plate",
+  "name": "Knight Plate",
+  "slot": "body",
+  "rarity": "epic",
+  "icon": "body_plate",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 22
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 30
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "leather_gloves",
+  "name": "Leather Gloves",
+  "slot": "arms",
+  "rarity": "common",
+  "icon": "arms_gloves",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 4
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "iron_bracers",
+  "name": "Iron Bracers",
+  "slot": "arms",
+  "rarity": "rare",
+  "icon": "arms_bracers",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 8
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "wooden_shield",
+  "name": "Wooden Shield",
+  "slot": "secondary",
+  "rarity": "common",
+  "icon": "sec_wood_shield",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 8
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "spiked_buckler",
+  "name": "Spiked Buckler",
+  "slot": "secondary",
+  "rarity": "rare",
+  "icon": "sec_jagged_kite_shield",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 10
+   },
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.2
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "tower_shield",
+  "name": "Tower Shield",
+  "slot": "secondary",
+  "rarity": "epic",
+  "icon": "sec_tower_shield",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 24
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "iron_greaves",
+  "name": "Iron Greaves",
+  "slot": "legs",
+  "rarity": "epic",
+  "icon": "legs_greaves",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 14
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 20
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "dragon_blade",
+  "name": "Dragon Blade",
+  "slot": "weapon",
+  "rarity": "legendary",
+  "icon": "wpn_flame_blade",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 40
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.08
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "crown_of_kings",
+  "name": "Crown of Kings",
+  "slot": "head",
+  "rarity": "legendary",
+  "icon": "head_crown",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.25
+   },
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.15
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "ring_of_wrath",
+  "name": "Ring of Wrath",
+  "slot": "accessory",
+  "rarity": "epic",
+  "icon": "acc_war_band",
+  "mods": [
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "iron_helm",
+  "name": "Iron Helm",
+  "slot": "head",
+  "rarity": "uncommon",
+  "icon": "head_iron_helm",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 18
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 4
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "flaming_crown",
+  "name": "Flaming Crown",
+  "slot": "head",
+  "rarity": "epic",
+  "icon": "head_flaming_crown",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 40
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 10
+   },
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "steel_breastplate",
+  "name": "Steel Breastplate",
+  "slot": "body",
+  "rarity": "rare",
+  "icon": "body_steel_breastplate",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 16
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 20
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "dragon_mail",
+  "name": "Dragon Mail",
+  "slot": "body",
+  "rarity": "legendary",
+  "icon": "body_dragon_mail",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 30
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 50
+   },
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.2
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "gauntlets",
+  "name": "Gauntlets",
+  "slot": "arms",
+  "rarity": "uncommon",
+  "icon": "arms_gauntlets",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 6
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 4
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "ornate_gloves",
+  "name": "Ornate Gloves",
+  "slot": "arms",
+  "rarity": "epic",
+  "icon": "arms_ornate_gloves",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 14
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.06
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "golden_vambraces",
+  "name": "Golden Vambraces",
+  "slot": "arms",
+  "rarity": "legendary",
+  "icon": "arms_golden_vambraces",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 22
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.1
+   },
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.3
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "plate_legs",
+  "name": "Plate Legs",
+  "slot": "legs",
+  "rarity": "uncommon",
+  "icon": "legs_plate_legs",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 8
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 8
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "obsidian_greaves",
+  "name": "Obsidian Greaves",
+  "slot": "legs",
+  "rarity": "rare",
+  "icon": "legs_obsidian_greaves",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 12
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 15
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "bloodforged_legs",
+  "name": "Bloodforged Leg Plates",
+  "slot": "legs",
+  "rarity": "legendary",
+  "icon": "legs_bloodforged_leg_plates",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 20
+   },
+   {
+    "stat": "maxHp",
+    "op": "add",
+    "v": 40
+   },
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.06
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "warhammer",
+  "name": "Warhammer",
+  "slot": "weapon",
+  "rarity": "rare",
+  "icon": "wpn_warhammer",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 20
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "glaive",
+  "name": "Glaive",
+  "slot": "weapon",
+  "rarity": "epic",
+  "icon": "wpn_glaive",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 28
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.06
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "kite_shield",
+  "name": "Kite Shield",
+  "slot": "secondary",
+  "rarity": "uncommon",
+  "icon": "sec_kite_shield",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 12
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "storm_kite_shield",
+  "name": "Storm Kite Shield",
+  "slot": "secondary",
+  "rarity": "legendary",
+  "icon": "sec_storm_kite_shield",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 34
+   },
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.3
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "jagged_charm",
+  "name": "Jagged Charm",
+  "slot": "accessory",
+  "rarity": "common",
+  "icon": "acc_jagged_charm",
+  "mods": [
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.1
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "flaming_amulet",
+  "name": "Flaming Amulet",
+  "slot": "accessory",
+  "rarity": "legendary",
+  "icon": "acc_flaming_amulet",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.15
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.1
+   }
+  ],
+  "guess": true
+ }
+]

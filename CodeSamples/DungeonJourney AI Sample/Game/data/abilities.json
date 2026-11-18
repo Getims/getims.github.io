@@ -1,0 +1,11 @@
+[
+  {"id": "tough", "label": "TOUGH · +60% HP", "color": "#e0b44a", "mods": [{"stat": "maxHp", "op": "mul", "v": 0.6}]},
+  {"id": "vampiric", "label": "VAMPIRIC · HEALS FROM ITS HITS", "color": "#b04fff", "effects": [{"on": "on_hit", "do": "heal_dmg", "k": 0.5}]},
+  {"id": "thorny", "label": "THORNY · REFLECTS DAMAGE", "color": "#ff9a3c", "mods": [{"stat": "thorns", "op": "add", "v": 0.3}]},
+  {"id": "ambush", "label": "AMBUSH · ALWAYS STRIKES FIRST", "color": "#ff5a4a", "effects": [{"on": "on_battle_start", "do": "strike_first", "k": 1}]},
+  {"id": "double_hit", "label": "DOUBLE HIT · ×2 DAMAGE", "color": "#ff5a4a", "mods": [{"stat": "atk", "op": "mul", "v": 1.0}]},
+  {"id": "honed_edge", "label": "HONED EDGE · +20 ATTACK", "color": "#3f8cff", "mods": [{"stat": "atk", "op": "add", "v": 20}]},
+  {"id": "bulwark", "label": "BULWARK · +18 DEFENSE", "color": "#3f8cff", "mods": [{"stat": "def", "op": "add", "v": 18}]},
+  {"id": "vampirism", "label": "VAMPIRISM · HEALS 25% OF DAMAGE", "color": "#3f8cff", "effects": [{"on": "on_hit", "do": "heal_dmg", "k": 0.25}]},
+  {"id": "bloodforge", "label": "BLOODFORGE · 25% MAX HP INTO ATTACK", "color": "#3f8cff", "mods": [{"stat": "hpToAtk", "op": "add", "v": 0.25}]}
+]

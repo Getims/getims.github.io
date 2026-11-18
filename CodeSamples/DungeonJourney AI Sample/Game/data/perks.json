@@ -1,0 +1,814 @@
+[
+ {
+  "id": "warriors_edge",
+  "name": "Warrior's Edge",
+  "rarity": "uncommon",
+  "desc": "+8 Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 8
+   }
+  ]
+ },
+ {
+  "id": "stoneblood",
+  "name": "Stoneblood",
+  "rarity": "uncommon",
+  "desc": "+8 Defense; 15% of Defense adds Attack",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 8
+   },
+   {
+    "stat": "defToAtk",
+    "op": "add",
+    "v": 0.15
+   }
+  ]
+ },
+ {
+  "id": "ironhide",
+  "name": "Ironhide",
+  "rarity": "uncommon",
+  "desc": "+12 Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 12
+   }
+  ]
+ },
+ {
+  "id": "ironclad",
+  "name": "Ironclad",
+  "rarity": "uncommon",
+  "desc": "+14 Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 14
+   }
+  ]
+ },
+ {
+  "id": "padding",
+  "name": "Padding",
+  "rarity": "common",
+  "desc": "+8 Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 8
+   }
+  ]
+ },
+ {
+  "id": "tempering",
+  "name": "Tempering",
+  "rarity": "common",
+  "desc": "+12% Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "mul",
+    "v": 0.12
+   }
+  ]
+ },
+ {
+  "id": "honing_oil",
+  "name": "Honing Oil",
+  "rarity": "common",
+  "desc": "+10% Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.1
+   }
+  ]
+ },
+ {
+  "id": "serrated",
+  "name": "Serrated",
+  "rarity": "common",
+  "desc": "+0.3 Crit Damage",
+  "mods": [
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.3
+   }
+  ]
+ },
+ {
+  "id": "brutal",
+  "name": "Brutal",
+  "rarity": "rare",
+  "desc": "+0.9 Crit Damage",
+  "mods": [
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.9
+   }
+  ]
+ },
+ {
+  "id": "duelist",
+  "name": "Duelist",
+  "rarity": "common",
+  "desc": "+3 Attack, +2% Crit",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 3
+   },
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.02
+   }
+  ]
+ },
+ {
+  "id": "reckless",
+  "name": "Reckless",
+  "rarity": "uncommon",
+  "desc": "+22% Attack, -12% Max HP",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.22
+   },
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": -0.12
+   }
+  ]
+ },
+ {
+  "id": "vitality",
+  "name": "Vitality",
+  "rarity": "uncommon",
+  "desc": "+20% Max HP (heal)",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.2
+   }
+  ],
+  "effects": [
+   {
+    "on": "on_pick",
+    "do": "heal_max",
+    "k": 0.2
+   }
+  ]
+ },
+ {
+  "id": "spiked",
+  "name": "Spiked",
+  "rarity": "rare",
+  "desc": "+60% Thorns",
+  "mods": [
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.6
+   }
+  ]
+ },
+ {
+  "id": "assassinate",
+  "name": "Assassinate",
+  "rarity": "epic",
+  "desc": "+10% Crit; crits heal 40% of damage",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.1
+   }
+  ],
+  "effects": [
+   {
+    "on": "on_crit",
+    "do": "heal_dmg",
+    "k": 0.4
+   }
+  ]
+ },
+ {
+  "id": "hamstring",
+  "name": "Hamstring",
+  "rarity": "uncommon",
+  "desc": "Execute foes below 10% HP; +5 Attack",
+  "mods": [
+   {
+    "stat": "execute",
+    "op": "set",
+    "v": 0.1
+   },
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 5
+   }
+  ]
+ },
+ {
+  "id": "executioner",
+  "name": "Executioner",
+  "rarity": "epic",
+  "desc": "Instantly kill foes below 26% HP; +25 Attack",
+  "mods": [
+   {
+    "stat": "execute",
+    "op": "set",
+    "v": 0.26
+   },
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 25
+   }
+  ]
+ },
+ {
+  "id": "leech",
+  "name": "Leech",
+  "rarity": "common",
+  "desc": "Heal 8% of damage dealt",
+  "mods": [
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.08
+   }
+  ]
+ },
+ {
+  "id": "shield_bash",
+  "name": "Shield Bash",
+  "rarity": "common",
+  "desc": "+3 Defense; 10% of Defense adds Attack",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 3
+   },
+   {
+    "stat": "defToAtk",
+    "op": "add",
+    "v": 0.1
+   }
+  ]
+ },
+ {
+  "id": "catch_breath",
+  "name": "Catch Breath",
+  "rarity": "uncommon",
+  "desc": "Heal 70% of missing HP; +8% Max HP",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.08
+   }
+  ],
+  "effects": [
+   {
+    "on": "on_pick",
+    "do": "heal_missing",
+    "k": 0.7
+   }
+  ]
+ },
+ {
+  "id": "whetstone",
+  "name": "Whetstone",
+  "rarity": "common",
+  "desc": "+5 Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 5
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "spark",
+  "name": "Spark",
+  "rarity": "common",
+  "desc": "+3% Crit",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.03
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "reinforce",
+  "name": "Reinforce",
+  "rarity": "common",
+  "desc": "+5 Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 5
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "snack",
+  "name": "Snack",
+  "rarity": "common",
+  "desc": "Heal 30% of missing HP",
+  "effects": [
+   {
+    "on": "on_pick",
+    "do": "heal_missing",
+    "k": 0.3
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "barbs",
+  "name": "Barbs",
+  "rarity": "uncommon",
+  "desc": "+25% Thorns",
+  "mods": [
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.25
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "bloodlust",
+  "name": "Bloodlust",
+  "rarity": "uncommon",
+  "desc": "+12% Lifesteal",
+  "mods": [
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.12
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "bloodbound",
+  "name": "Bloodbound",
+  "rarity": "uncommon",
+  "desc": "+10% Max HP; +6% Lifesteal",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.1
+   },
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.06
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "gambeson",
+  "name": "Gambeson",
+  "rarity": "common",
+  "desc": "+5 Defense, +2% Max HP",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 5
+   },
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.02
+   }
+  ]
+ },
+ {
+  "id": "deadly",
+  "name": "Deadly",
+  "rarity": "rare",
+  "desc": "+5% Crit, +0.3 Crit Damage",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.05
+   },
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.3
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "bastion",
+  "name": "Bastion",
+  "rarity": "rare",
+  "desc": "+25% Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "mul",
+    "v": 0.25
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "warlord",
+  "name": "Warlord",
+  "rarity": "epic",
+  "desc": "+4 Attack per kill",
+  "mods": [
+   {
+    "stat": "atkPerKill",
+    "op": "add",
+    "v": 4
+   }
+  ]
+ },
+ {
+  "id": "momentum",
+  "name": "Momentum",
+  "rarity": "rare",
+  "desc": "First hit of each fight deals +50% damage",
+  "effects": [
+   {
+    "on": "on_before_hit",
+    "do": "bonus_dmg",
+    "k": 0.5,
+    "if": {
+     "firstTurn": true
+    }
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "retribution",
+  "name": "Retribution",
+  "rarity": "epic",
+  "desc": "Thorns can reflect up to 25% of enemy HP; +25% Defense",
+  "mods": [
+   {
+    "stat": "thornsCap",
+    "op": "set",
+    "v": 0.25
+   },
+   {
+    "stat": "def",
+    "op": "mul",
+    "v": 0.25
+   }
+  ]
+ },
+ {
+  "id": "cull",
+  "name": "Cull",
+  "rarity": "rare",
+  "desc": "+50% damage to foes below 30% HP",
+  "effects": [
+   {
+    "on": "on_before_hit",
+    "do": "bonus_dmg",
+    "k": 0.5,
+    "if": {
+     "targetHpBelow": 0.3
+    }
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "surge",
+  "name": "Surge",
+  "rarity": "uncommon",
+  "desc": "+15% Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.15
+   }
+  ]
+ },
+ {
+  "id": "immortal_king",
+  "name": "Immortal King",
+  "rarity": "legendary",
+  "desc": "+30% Max HP, +20% Attack, +20% Defense",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.3
+   },
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.2
+   },
+   {
+    "stat": "def",
+    "op": "mul",
+    "v": 0.2
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "ambusher",
+  "name": "Ambusher",
+  "rarity": "rare",
+  "desc": "You always strike first",
+  "effects": [
+   {
+    "on": "on_battle_start",
+    "do": "strike_first",
+    "k": 1
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "trophy",
+  "name": "Trophy",
+  "rarity": "common",
+  "desc": "+1 Attack per kill",
+  "mods": [
+   {
+    "stat": "atkPerKill",
+    "op": "add",
+    "v": 1
+   }
+  ]
+ },
+ {
+  "id": "sharpen",
+  "name": "Sharpen",
+  "rarity": "uncommon",
+  "desc": "+13 Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 13
+   }
+  ]
+ },
+ {
+  "id": "keen_eye",
+  "name": "Keen Eye",
+  "rarity": "uncommon",
+  "desc": "+8% Crit",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.08
+   }
+  ]
+ },
+ {
+  "id": "honed_edge",
+  "name": "Honed Edge",
+  "rarity": "rare",
+  "desc": "+20 Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 20
+   }
+  ]
+ },
+ {
+  "id": "bulwark",
+  "name": "Bulwark",
+  "rarity": "rare",
+  "desc": "+18 Defense",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 18
+   }
+  ]
+ },
+ {
+  "id": "vampirism",
+  "name": "Vampirism",
+  "rarity": "rare",
+  "desc": "Heal 25% of damage dealt",
+  "mods": [
+   {
+    "stat": "lifesteal",
+    "op": "add",
+    "v": 0.25
+   }
+  ]
+ },
+ {
+  "id": "bloodforge",
+  "name": "Bloodforge",
+  "rarity": "rare",
+  "desc": "Convert 25% of Max HP into Attack",
+  "mods": [
+   {
+    "stat": "hpToAtk",
+    "op": "add",
+    "v": 0.25
+   }
+  ]
+ },
+ {
+  "id": "juggernaut",
+  "name": "Juggernaut",
+  "rarity": "epic",
+  "desc": "+16 Defense; 35% of Defense adds Attack",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 16
+   },
+   {
+    "stat": "defToAtk",
+    "op": "add",
+    "v": 0.35
+   }
+  ]
+ },
+ {
+  "id": "reaper",
+  "name": "Reaper",
+  "rarity": "legendary",
+  "desc": "Execute below 33% HP; +4 Attack per kill",
+  "mods": [
+   {
+    "stat": "execute",
+    "op": "set",
+    "v": 0.33
+   },
+   {
+    "stat": "atkPerKill",
+    "op": "add",
+    "v": 4
+   }
+  ]
+ },
+ {
+  "id": "deathwish",
+  "name": "Deathwish",
+  "rarity": "legendary",
+  "desc": "+25% Crit and +1.0 Crit Damage",
+  "mods": [
+   {
+    "stat": "crit",
+    "op": "add",
+    "v": 0.25
+   },
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 1
+   }
+  ]
+ },
+ {
+  "id": "splinters",
+  "name": "Splinters",
+  "rarity": "common",
+  "desc": "+15% Thorns",
+  "mods": [
+   {
+    "stat": "thorns",
+    "op": "add",
+    "v": 0.15
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "smack",
+  "name": "Smack",
+  "rarity": "common",
+  "desc": "+6 Attack",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "add",
+    "v": 6
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "bandage",
+  "name": "Bandage",
+  "rarity": "common",
+  "desc": "Heal 40% of missing HP",
+  "effects": [
+   {
+    "on": "on_pick",
+    "do": "heal_missing",
+    "k": 0.4
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "aegis",
+  "name": "Aegis",
+  "rarity": "rare",
+  "desc": "+20% Defense, +10% Max HP",
+  "mods": [
+   {
+    "stat": "def",
+    "op": "mul",
+    "v": 0.2
+   },
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.1
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "titan",
+  "name": "Titan",
+  "rarity": "epic",
+  "desc": "+25% Max HP, +15 Defense",
+  "mods": [
+   {
+    "stat": "maxHp",
+    "op": "mul",
+    "v": 0.25
+   },
+   {
+    "stat": "def",
+    "op": "add",
+    "v": 15
+   }
+  ],
+  "guess": true
+ },
+ {
+  "id": "godblade",
+  "name": "Godblade",
+  "rarity": "legendary",
+  "desc": "+50% Attack, +0.5 Crit Damage",
+  "mods": [
+   {
+    "stat": "atk",
+    "op": "mul",
+    "v": 0.5
+   },
+   {
+    "stat": "critMult",
+    "op": "add",
+    "v": 0.5
+   }
+  ],
+  "guess": true
+ }
+]

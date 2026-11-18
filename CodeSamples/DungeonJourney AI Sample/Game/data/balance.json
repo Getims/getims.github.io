@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "maxHp": 100,
+    "atk": 12,
+    "def": 12,
+    "crit": 0.08,
+    "critMult": 2,
+    "lifesteal": 0,
+    "thorns": 0,
+    "thornsCap": 0.25,
+    "execute": 0,
+    "defToAtk": 0,
+    "hpToAtk": 0,
+    "atkPerKill": 0
+  },
+  "damage": {
+    "defK": 70,
+    "minDmg": 1,
+    "maxBlock": 0.7
+  },
+  "firstStrike": {
+    "hero": 25,
+    "foe": 45,
+    "alternate": 30
+  },
+  "rarities": {
+    "common": {
+      "color": "#b8b8b8",
+      "weight": 58,
+      "salvage": 2,
+      "upgradeCost": 8
+    },
+    "uncommon": {
+      "color": "#4fc25a",
+      "weight": 28,
+      "salvage": 3,
+      "upgradeCost": 12
+    },
+    "rare": {
+      "color": "#3f8cff",
+      "weight": 9,
+      "salvage": 5,
+      "upgradeCost": 18
+    },
+    "epic": {
+      "color": "#b04fff",
+      "weight": 4,
+      "salvage": 8,
+      "upgradeCost": 26
+    },
+    "legendary": {
+      "color": "#ffb52e",
+      "weight": 1,
+      "salvage": 12,
+      "upgradeCost": 40
+    }
+  },
+  "keyDrops": {
+    "normal": {
+      "chance": 0.5,
+      "weights": {
+        "copper": 80,
+        "silver": 15,
+        "gold": 5
+      }
+    },
+    "every5": {
+      "chance": 1,
+      "weights": {
+        "copper": 55,
+        "silver": 35,
+        "gold": 10
+      }
+    },
+    "boss": {
+      "chance": 1,
+      "weights": {
+        "gold": 100
+      }
+    }
+  },
+  "chests": {
+    "copper": {
+      "common": 62,
+      "uncommon": 30,
+      "rare": 7,
+      "epic": 1
+    },
+    "silver": {
+      "common": 32,
+      "uncommon": 45,
+      "rare": 19,
+      "epic": 3.5,
+      "legendary": 0.5
+    },
+    "gold": {
+      "common": 6,
+      "uncommon": 26,
+      "rare": 40,
+      "epic": 22,
+      "legendary": 6
+    }
+  },
+  "shardsPerKey": 10,
+  "upgradeStep": 0.1,
+  "mergeCount": 3,
+  "cards": {
+    "pathRarity": "uncommon",
+    "bigRewardRarities": [
+      "epic",
+      "legendary"
+    ],
+    "count": 3
+  },
+  "shake": {
+    "small": {
+      "amp": 10,
+      "dur": 0.18
+    },
+    "strong": {
+      "amp": 18,
+      "dur": 0.32
+    },
+    "victory": {
+      "amp": 18,
+      "dur": 0.4
+    }
+  }
+}

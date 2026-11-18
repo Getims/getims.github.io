@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "seed": "season-1",
+  "generator": {
+    "hp": {
+      "base": 9,
+      "growth": 1.22
+    },
+    "atk": {
+      "base": 6.5,
+      "growth": 1.16,
+      "add": 0
+    },
+    "def": {
+      "base": 0,
+      "perFloor": 1,
+      "fromFloor": 2,
+      "boss": 5
+    },
+    "bossHpK": 1,
+    "bossAtkK": 1.2,
+    "foesPerFloor": 3,
+    "bossEvery": 10,
+    "keyEvery": 5,
+    "abilityChances": [
+      {
+        "ability": "tough",
+        "fromFloor": 2,
+        "chance": 0.25,
+        "toFloor": 12
+      },
+      {
+        "ability": "vampiric",
+        "fromFloor": 12,
+        "chance": 0.15
+      },
+      {
+        "ability": "thorny",
+        "fromFloor": 14,
+        "chance": 0.1
+      }
+    ],
+    "floorBuff": {
+      "pool": [
+        "ambush",
+        "double_hit",
+        "honed_edge",
+        "bulwark",
+        "vampirism",
+        "bloodforge"
+      ],
+      "floors": [
+        5,
+        10
+      ],
+      "fromFloor": 11,
+      "chance": 0.5
+    },
+    "keyCount": {
+      "from": 20,
+      "every": 10
+    },
+    "hpAdd": [
+      {
+        "toFloor": 4,
+        "add": 10
+      },
+      {
+        "toFloor": 15,
+        "add": 20
+      }
+    ]
+  },
+  "floors": [
+    {
+      "floor": 1,
+      "foes": [
+        {
+          "enemy": "mushroom_small",
+          "hp": 16
+        },
+        {
+          "enemy": "mushroom_small",
+          "hp": 9
+        },
+        {
+          "enemy": "beetle_tiny"
+        }
+      ]
+    },
+    {
+      "floor": 6,
+      "foes": [
+        {
+          "enemy": "goblin_knife",
+          "hp": 56
+        },
+        {
+          "enemy": "imp_orange",
+          "hp": 23
+        },
+        {
+          "enemy": "slime_green",
+          "hp": 33
+        }
+      ]
+    },
+    {
+      "floor": 7,
+      "foes": [
+        {
+          "enemy": "skeleton",
+          "hp": 104,
+          "abilities": [
+            "tough"
+          ]
+        },
+        {
+          "enemy": "skeleton",
+          "hp": 39,
+          "abilities": [
+            "tough"
+          ]
+        },
+        {
+          "enemy": "goblin_assassin",
+          "hp": 39,
+          "abilities": [
+            "tough"
+          ]
+        }
+      ]
+    },
+    {
+      "floor": 9,
+      "foes": [
+        {
+          "enemy": "mushroom_small",
+          "hp": 85,
+          "abilities": [
+            "tough"
+          ]
+        },
+        {
+          "enemy": "fire_slime",
+          "hp": 53,
+          "abilities": [
+            "tough"
+          ]
+        },
+        {}
+      ]
+    },
+    {
+      "floor": 10,
+      "boss": {
+        "enemy": "brute",
+        "hp": 257
+      }
+    },
+    {
+      "floor": 11,
+      "foes": [
+        {
+          "enemy": "ghoul",
+          "hp": 150
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "floor": 12,
+      "foes": [
+        {},
+        {},
+        {
+          "enemy": "beetle_dark",
+          "hp": 70
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "foes": [
+        {},
+        {
+          "enemy": "mushroom_big",
+          "hp": 98,
+          "abilities": [
+            "vampiric"
+          ]
+        },
+        {
+          "enemy": "fierce_spider",
+          "hp": 98,
+          "abilities": [
+            "vampiric"
+          ]
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "foes": [
+        {},
+        {
+          "enemy": "golem_knight",
+          "hp": 170
+        },
+        {
+          "enemy": "beetle_dark",
+          "hp": 95
+        }
+      ]
+    },
+    {
+      "floor": 15,
+      "foes": [
+        {},
+        {},
+        {
+          "enemy": "wraith",
+          "hp": 132
+        }
+      ]
+    },
+    {
+      "floor": 16,
+      "foes": [
+        {},
+        {},
+        {
+          "enemy": "slime_knight",
+          "hp": 216
+        }
+      ]
+    },
+    {
+      "floor": 20,
+      "boss": {
+        "enemy": "ice_king"
+      }
+    }
+  ]
+}
